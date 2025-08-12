@@ -2,10 +2,11 @@ import './MyForm.css'
 
 import { useEffect, useState } from 'react'
 
-const MyForm = ({userName, userEmail}) => {
+const MyForm = ({ userName, userEmail }) => {
     // Gerenciamento de dados
-    const [name, setName] = useState(userName) 
+    const [name, setName] = useState(userName)
     const [email, setEmail] = useState(userEmail)
+    const [bio, setBio] = useState("")
 
     const handleName = (e) => {
         setName(e.target.value)
@@ -14,7 +15,7 @@ const MyForm = ({userName, userEmail}) => {
     // Envio de form
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log(name, email);
+        console.log(name, email, bio);
 
         // Validação
         // Envio
@@ -22,6 +23,7 @@ const MyForm = ({userName, userEmail}) => {
         // Limpar o form
         setName("")
         setEmail("")
+        setBio("")
 
     }
 
@@ -50,6 +52,11 @@ const MyForm = ({userName, userEmail}) => {
                         // Controlled Input
                         value={email || ""}
                     />
+                </label>
+                {/* Textarea */}
+                <label>
+                    <span>Bio:</span>
+                    <textarea name="bio" placeholder='Descrição do usuário' onChange={(e) => setBio(e.target.value)} value={bio}></textarea>
                 </label>
                 <input type="submit" value="Enviar" />
             </form>
