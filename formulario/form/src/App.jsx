@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='App'>
       <h1>Form em Reat</h1>
-      <MyForm />
+      <MyForm userName="Sofia" userEmail="sofia@gmail.com"/>
     </div>
   )
 }
