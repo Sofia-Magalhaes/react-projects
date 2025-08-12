@@ -11,13 +11,21 @@ const MyForm = () => {
         setName(e.target.value)
     }
 
-    console.log(name, email);
+    // Envio de form
+    const handleSubmit = (e) =>{
+        e.preventDefault()
+        console.log(name, email);
+        
+    }
+
+    // console.log(name, email);
 
 
     return (
         <div>
             {/* Criação do form */}
-            <form>
+            {/* Envio de formualario */}            
+            <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Nome: </label>
                     <input type="text" name="name" placeholder='Digite o seu nome' onChange={handleName} />
