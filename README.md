@@ -1,6 +1,6 @@
 # 1️⃣ Primeiro projeto
 
-## 🩺 Calculadora de IMC com React
+## 🩺 [Calculadora de IMC com React](https://github.com/Sofia-Magalhaes/react-projects/tree/main/calculadora-imc/imc_calc)
 
 Uma aplicação web simples e responsiva para calcular o Índice de Massa Corporal (IMC).  
 Desenvolvida com **React**, a aplicação permite que o usuário insira sua altura e peso para obter instantaneamente o resultado do IMC e a sua classificação de acordo com a tabela padrão.
@@ -33,4 +33,31 @@ https://github.com/user-attachments/assets/cd47c343-b385-4aa9-a291-5dce7c589681
 
 # 2️⃣ Segundo projeto
 
-## 🩺 formulario utilizando react
+## 📋 [Formulário em React](https://github.com/Sofia-Magalhaes/react-projects/tree/main/formulario/form)
+
+Um simples formulário criado com **React** para demonstração de **inputs controlados**, incluindo campos de texto, textarea e select. O projeto mostra como manipular estado e lidar com envio de dados no React.
+
+## 🚀 Funcionalidades
+
+- Campo de texto para **nome**  
+- Campo de texto para **e-mail**  
+- Campo de **textarea** para biografia  
+- **Select** para escolher função do usuário (Usuário, Editor, Admin)  
+- Reset automático do formulário após envio  
+- Uso de **props** para valores iniciais (nome e e-mail)  
+- Estilização simples com CSS
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React](https://react.dev/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- CSS
+
+## ⚙️ Projeto Funcionando
+https://github.com/user-attachments/assets/eaff9aab-a516-410a-841c-3e532b1827be
+
+---
+
+# 3️⃣ Terceiro projeto
+
+## [Tela de Login](https://google.com)
