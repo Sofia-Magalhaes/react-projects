@@ -20,11 +20,11 @@ const Login = () => {
         <div className="container">
             <form onSubmit={handleSubmit}>
                 <h1>Acesso o sitema</h1>
-                <div>
+                <div className='input-field'>
                     <input type="email" placeholder='E-mail' onChange={(e) => setUsername(e.target.value)}/>
                     <FaUser className='icon' />
                 </div>
-                <div>
+                <div className='input-field'>
                     <input type="password" placeholder='Senha' onChange={(e) => setPassword(e.target.value)}/>
                     <FaLock className='icon' />
                 </div>
