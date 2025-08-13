@@ -61,3 +61,59 @@ https://github.com/user-attachments/assets/eaff9aab-a516-410a-841c-3e532b1827be
 # 3️⃣ Terceiro projeto
 
 ## [Tela de Login](https://github.com/Sofia-Magalhaes/react-projects/tree/main/tela-login)
+
+Este projeto implementa uma **tela de login moderna e responsiva** utilizando **React** e **CSS** com efeitos de *glassmorphism*.  
+Ele serve como base para sistemas que necessitam de autenticação de usuário.
+
+---
+
+## 📌 Tecnologias utilizadas
+- **React.js** — Biblioteca JavaScript para criação de interfaces.
+- **React Icons** — Ícones prontos para uso.
+- **CSS** — Estilização personalizada com efeitos de vidro (*glass effect*).
+- **JavaScript (ES6+)** — Para manipulação de estado e eventos.
+
+---
+
+## 🚀 Como funciona
+
+### 1️⃣ **Componente App**
+O `App.jsx` é o ponto de entrada visual da aplicação.  
+Ele apenas renderiza o componente **Login** centralizado na tela e aplica o estilo de fundo definido no `App.css`.
+
+### 2️⃣ **Componente Login**
+O `Login.jsx` contém:
+- **Estados (`useState`)** para armazenar email e senha.
+- **Formulário de login** com campos:
+  - E-mail (com ícone `FaUser`)
+  - Senha (com ícone `FaLock`)
+  - Checkbox "Lembre de mim"
+  - Link "Esqueceu a senha?"
+  - Botão "Entrar"
+- **Evento `onSubmit`** que:
+  - Previne o recarregamento da página.
+  - Exibe um `alert` com os dados digitados (apenas para teste).
+
+### 3️⃣ **Estilização**
+O `Login.css` cria um efeito de vidro com:
+- Fundo translúcido.
+- Bordas arredondadas.
+- Desfoque no fundo (`backdrop-filter`).
+- Ícones posicionados dentro dos campos.
+- Layout centralizado e responsivo.
+
+O `App.css` define:
+- Reset básico de estilos.
+- Fundo com imagem (`bg.webp`) ocupando toda a tela.
+
+---
+
+## ⚙️ Projeto Funcionando
+https://github.com/user-attachments/assets/5a6cb69a-017d-40ee-b27f-3236fc539db8
+
+---
+
+# 4️⃣ Quarto projeto
+
+## [Formulário multi step com React JS](www.google.com)
+
