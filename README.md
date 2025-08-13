@@ -60,4 +60,4 @@ https://github.com/user-attachments/assets/eaff9aab-a516-410a-841c-3e532b1827be
 
 # 3️⃣ Terceiro projeto
 
-## [Tela de Login](https://google.com)
+## [Tela de Login](https://github.com/Sofia-Magalhaes/react-projects/tree/main/tela-login)
