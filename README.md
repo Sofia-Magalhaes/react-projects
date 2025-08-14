@@ -117,3 +117,41 @@ https://github.com/user-attachments/assets/5a6cb69a-017d-40ee-b27f-3236fc539db8
 
 ## [Formulário multi step com React JS](https://github.com/Sofia-Magalhaes/react-projects/tree/main/form-multi-step/multistep_form_react)
 
+---
+
+## 📌 Sobre o Projeto
+Este projeto implementa um **formulário de múltiplas etapas** (*multi-step form*) utilizando **React**.  
+O objetivo é tornar a coleta de dados mais organizada e agradável, dividindo um formulário longo em partes menores e mais fáceis de preencher.
+
+## 🎯 Objetivo
+- Melhorar a **experiência do usuário**, evitando formulários longos em uma única página.
+- Dividir a entrada de dados em **etapas lógicas** (ex.: informações pessoais → endereço → confirmação).
+- Validar as informações **por etapa**, garantindo que cada seção esteja correta antes de avançar.
+- Criar **componentes reutilizáveis** que podem ser usados em outros projetos.
+
+## ⚙️ Funcionamento
+1. **Gerenciamento de estado centralizado**  
+   Os dados de todas as etapas são armazenados em um estado global (via `useState` ou `useReducer`).
+
+2. **Navegação entre etapas**  
+   Botões "Próximo" e "Anterior" controlam o avanço ou retrocesso do usuário.
+
+3. **Componentes separados por etapa**  
+   Cada etapa do formulário (ex.: `Step1`, `Step2`, `Step3`) é um componente independente.
+
+4. **Validação condicional**  
+   Antes de avançar, os campos da etapa atual podem ser validados.
+
+5. **Renderização condicional**  
+   Apenas o componente da etapa atual é exibido na tela.
+
+6. **Envio final**  
+   Na última etapa, todos os dados são consolidados e enviados (para API, log, etc.).
+
+---
+
+## ⚙️ Projeto Funcionando
+https://github.com/user-attachments/assets/6bc276ba-5aba-4a60-a1bf-da146e2b6163
+
+
+
