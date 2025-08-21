@@ -39,6 +39,16 @@
       "id": "0f2d",
       "name": "teste post",
       "price": "2"
+    },
+    {
+      "id": "d423",
+      "name": "loading",
+      "price": "1"
+    },
+    {
+      "id": "908e",
+      "name": "loadin funcionando",
+      "price": "45"
     }
   ]
 }
