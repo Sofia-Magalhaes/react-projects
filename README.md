@@ -154,4 +154,34 @@ O objetivo é tornar a coleta de dados mais organizada e agradável, dividindo u
 https://github.com/user-attachments/assets/6bc276ba-5aba-4a60-a1bf-da146e2b6163
 
 
+# 5️⃣ Quinto projeto
+
+## [Http React](https://github.com/Sofia-Magalhaes/react-projects/tree/main/http_react/http_react)
+
+---
+
+## 📌 Sobre o Projeto
+Este projeto demonstra como **consumir e enviar dados via HTTP** em aplicações React, utilizando um **custom hook (`useFetch`)** para organizar as requisições.  
+
+Ele simula uma pequena aplicação de **cadastro de produtos**, integrando-se com uma API fake criada pelo **JSON Server**.
+
+---
+
+## 🎯 Funcionalidades
+- **Listagem de produtos** a partir de uma API local (`json-server`).
+- **Formulário para adicionar produtos** (nome e preço).
+- **Envio de dados via POST** usando o custom hook `useFetch`.
+- **Tratamento de erros e loading** para melhor experiência do usuário.
+- **Estilização simples com CSS**.
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+- [React](https://react.dev/) (com hooks: `useState`, `useEffect`)
+- [Vite](https://vitejs.dev/) para build e servidor local
+- [JSON Server](https://github.com/typicode/json-server) para simulação da API
+
+## ⚙️ Projeto Funcionando
+https://github.com/user-attachments/assets/35359063-6dfb-4b21-a14b-204922349a8b
+
 
