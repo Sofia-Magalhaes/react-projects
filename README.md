@@ -184,4 +184,8 @@ Ele simula uma pequena aplicação de **cadastro de produtos**, integrando-se co
 ## ⚙️ Projeto Funcionando
 https://github.com/user-attachments/assets/35359063-6dfb-4b21-a14b-204922349a8b
 
+---
 
+# 6️⃣ Sexto projeto
+
+## [React Router](https://github.com/Sofia-Magalhaes/react-projects/tree/main/react_router/react_router)
