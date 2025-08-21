@@ -13,6 +13,9 @@ export const useFetch = (url) => {
     // 6 - Loading
     const [loading, setLoading] = useState(false)
 
+    // 7 - erros
+    const [error, setError] = useState(null)
+
     const httpConfig = (data, method) => {
         if (method === "POST") {
             setConfig({
@@ -29,14 +32,23 @@ export const useFetch = (url) => {
 
     useEffect(() => {
         const fetchData = async () => {
-            // 6 - Loading
-            setLoading(true)
-            const res = await fetch(url)
-            const json = await res.json()
+            // 7 - Tratando erros
+            try {
+                // 6 - Loading
+                setLoading(true)
+                const res = await fetch(url)
+                const json = await res.json()
+
+                setLoading(false)
+
+                setData(json)
+            } catch (error) {
+                console.log(error.message)
+
+                setError("Houve algum erro ao carregar os dados")
+            }
 
             setLoading(false)
-
-            setData(json)
         }
         fetchData()
     }, [url, callFetch])
@@ -62,5 +74,5 @@ export const useFetch = (url) => {
         httpResquest()
     }, [config, method, url])
 
-    return { data, httpConfig, loading }
+    return { data, httpConfig, loading, error }
 }
