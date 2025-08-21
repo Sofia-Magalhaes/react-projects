@@ -12,7 +12,7 @@ function App() {
   const [products, setProducts] = useState([])
 
   // 4 - Costum hook
-  const { data: items, httpConfig, loading} = useFetch(url)
+  const { data: items, httpConfig, loading } = useFetch(url)
 
   // useEffect(() => {
   //   async function getData() {
@@ -75,7 +75,10 @@ function App() {
             <span>Preço </span>
             <input type="text" value={price} onChange={(e) => setPrice(e.target.value)} />
           </label>
-          <input type="submit" value="Enviar" />
+          {/* <input type="submit" value="Enviar" /> */}
+          {/* Loading POST */}
+          {loading && <input type='submit' disabled value="Aguarde" />}
+          {!loading && <input type='submit' value="Criar" />}
         </form>
       </div>
     </div>
