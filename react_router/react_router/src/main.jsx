@@ -7,6 +7,7 @@ import App from './App.jsx'
 import Contact from './routes/Contact.jsx'
 import ErrorPage from './routes/ErrorPage.jsx'
 import Home from './routes/Home.jsx'
+import Products from './routes/Products.jsx'
 
 import {
   createBrowserRouter,
@@ -28,8 +29,12 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />
+      },
+      {
+        path: "/products/:id",
+        element: <Products />
       }
-    ]
+    ],
   },
   // {
   //   path: "contact",
