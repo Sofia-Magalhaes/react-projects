@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 
 import { Outlet } from 'react-router-dom'
+import SearchForm from './components/SearchForm'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
 
   return (
     <div className='App'>
-      <Navbar/>
+      <Navbar />
+      <SearchForm />
       <Outlet />
       <p>Footer</p>
     </div>
