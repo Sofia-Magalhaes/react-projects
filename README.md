@@ -1,3 +1,19 @@
+## 📚 Projetos em React
+
+Este repositório reúne pequenos projetos desenvolvidos para aprimorar meu aprendizado em React.
+Cada um deles explora conceitos diferentes da biblioteca:
+
+- Calculadora de IMC → prática com estados e eventos.
+- Formulário simples → inputs controlados.
+- Tela de Login → estilização e gerenciamento de estado.
+- Formulário Multi Step → componentes reutilizáveis e validação por etapas.
+- HTTP React → consumo e envio de dados com fetch e hook personalizado.
+- React Router → rotas dinâmicas, nested routes e busca com query params.
+
+Todos os códigos foram feitos com foco em estudo e prática dos principais recursos do React.
+
+---
+
 # 1️⃣ Primeiro projeto
 
 ## 🩺 [Calculadora de IMC com React](https://github.com/Sofia-Magalhaes/react-projects/tree/main/calculadora-imc/imc_calc)
@@ -189,3 +205,34 @@ https://github.com/user-attachments/assets/35359063-6dfb-4b21-a14b-204922349a8b
 # 6️⃣ Sexto projeto
 
 ## [React Router](https://github.com/Sofia-Magalhaes/react-projects/tree/main/react_router/react_router)
+
+# 📌 React Router Project
+
+Este projeto demonstra o uso do **React Router** em uma aplicação React, incluindo rotas dinâmicas, nested routes, tratamento de erros e navegação baseada em busca.
+
+---
+
+## 🚀 Funcionalidades
+
+- **Navegação principal** com `Navbar` destacando a rota ativa.
+- **Página Home** que lista produtos consumindo dados de uma API fake (`json-server`).
+- **Página de Contato** simples.
+- **Detalhes de Produtos** com rotas dinâmicas (`/products/:id`).
+- **Nested Routes** para exibir informações adicionais do produto.
+- **Busca de produtos** com query params (`/search?q=...`).
+- **Tratamento de erros** com página personalizada (`ErrorPage`).
+- **Custom Hook** `useFetch` para requisições HTTP (GET e POST).
+- **Formulário de busca** que redireciona dinamicamente.
+
+## 📌 Exemplos de Rotas
+
+- / → Página inicial (lista de produtos)
+- /contact → Página de contato
+-/products/:id → Detalhes de um produto
+- /products/:id/info → Mais informações (nested route)
+- /search?q=nome → Busca de produtos
+
+## ⚙️ Projeto Funcionando
+https://github.com/user-attachments/assets/09ed3771-d05b-4e60-830d-d72fcce84632
+
+---
