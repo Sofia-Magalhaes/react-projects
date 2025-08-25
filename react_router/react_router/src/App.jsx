@@ -1,6 +1,6 @@
 import './App.css'
 // Link entre páginas - está no app, pq é informação que se repete
-import Navbar from './routes/Navbar'
+import Navbar from './components/Navbar'
 
 import { Outlet } from 'react-router-dom'
 
