@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Contact from './routes/Contact.jsx'
+import ErrorPage from './routes/ErrorPage.jsx'
 
 import {
   createBrowserRouter,
@@ -13,7 +14,8 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <App />,
+    errorElement: <ErrorPage />
   },
   {
     path: "contact",
