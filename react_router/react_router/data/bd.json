@@ -1,0 +1,44 @@
+ {
+    "products": [
+        {
+            "name": "capa de chuva",
+            "price": "50.50",
+            "id": 1
+        },
+        {
+            "name": "fone de ouvido",
+            "price": "120",
+            "id": 2
+        },
+        {
+            "name": "mouse gamer",
+            "price": "250.99",
+            "id": 3
+        },
+        {
+            "name": "teclado gamer",
+            "price": "200",
+            "id": 4
+        },
+        {
+            "name": "celular para jogos",
+            "price": "1",
+            "id": 5
+        },
+        {
+            "name": "Steam",
+            "price": "356",
+            "id": 6
+        },
+        {
+            "name": "pão",
+            "price": "22.34",
+            "id": 7
+        },
+        {
+            "name": "comida infinita",
+            "price": "9",
+            "id": 9
+        }
+    ]
+ }
