@@ -15,7 +15,7 @@ import Search from './routes/Search.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
-  Route
+  Navigate
 } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -44,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "search",
         element: <Search />,
+      },
+      {
+        path: "teste",
+        element: <Navigate to="/"/>,
       }
     ],
   },
