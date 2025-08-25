@@ -8,6 +8,7 @@ import Contact from './routes/Contact.jsx'
 import ErrorPage from './routes/ErrorPage.jsx'
 import Home from './routes/Home.jsx'
 import Products from './routes/Products.jsx'
+import Info from './routes/Info.jsx'
 
 import {
   createBrowserRouter,
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/products/:id",
         element: <Products />
+      },
+      {
+        path: "products/:id/info",
+        element: <Info />,
       }
     ],
   },
